@@ -1,6 +1,6 @@
 {
-  "title": "Online Donations and New Photos"
-  "published": "2012-08-28 00:00"
+  "title": "Online Donations and New Photos",
+  "published": "2012-08-28 00:00",
   "categories": ["Update"],
   "authors": ["Arlene Bailey"]
 }

@@ -1,6 +1,6 @@
 {
-  "title": "December 2015 Update"
-  "published": "2015-12-02 23:02"
+  "title": "December 2015 Update",
+  "published": "2015-12-02 23:02",
   "categories": ["Update"],
   "authors": ["Arlene Bailey"],
   "image": "/img/posts/class.jpg"

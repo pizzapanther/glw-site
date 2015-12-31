@@ -1,6 +1,6 @@
 {
-  "title": "April Update"
-  "published": "2013-04-30 00:00"
+  "title": "April Update",
+  "published": "2013-04-30 00:00",
   "categories": ["Update"],
   "authors": ["Arlene Bailey"]
 }

@@ -1,6 +1,6 @@
 {
-  "title": "September 2011 Trip Update"
-  "published": "2011-10-12 00:00"
+  "title": "September 2011 Trip Update",
+  "published": "2011-10-12 00:00",
   "categories": ["Update"],
   "authors": ["Arlene Bailey"]
 }
