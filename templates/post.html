@@ -2,7 +2,7 @@
   <div class="meta">
     <time class="blog-postdate" datetime="{{ post.metadata.published | amDateFormat:'YYYY-MM-DD HH:mm CST' }}" pubdate="{{ post.metadata.published | amDateFormat:'YYYY-MM-DD' }}" data-updated="true">
       {{ post.metadata.published | amDateFormat:'MMMM Do YYYY' }}
-    </time> | Posted by {{ post.metadata.authors[0].name }}
+    </time> | Posted by {{ post.metadata.authors[0] }}
   </div>
   <h1 class="entry-title">
     {{ post.metadata.title }}

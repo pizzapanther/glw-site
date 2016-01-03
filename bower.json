@@ -17,8 +17,9 @@
     "tests"
   ],
   "dependencies": {
-    "nb-blog": "~1.0.1",
+    "nb-blog": "~1.1.0",
     "angular-route": "~1.4.8",
-    "angular-moment": "~0.10.3"
+    "angular-moment": "~0.10.3",
+    "angular-sanitize": "~1.4.8"
   }
 }

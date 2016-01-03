@@ -11,7 +11,7 @@
   </h2>
   <div class="post-content">
     <img ng-if="post[1].image" class="thumb" ng-src="{{ post[1].image }}" alt="">
-    {{ post[1].summary }}
+    <div ng-bind-html="post[1].summary"></div>
   </div>
   <div style="clear: both;"></div>
 </div>

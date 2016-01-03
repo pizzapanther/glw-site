@@ -11,6 +11,10 @@ angular.module('nb.blog', ['hc.commonmark'])
       return $http.get('/blog/posts/' + path + '.md');
     };
     
+    DataService.get_page = function (slug) {
+      return $http.get('/pages/' + slug + '.md');
+    };
+    
     DataService.parse_post = function (body) {
       var c;
       var content = '';
@@ -90,6 +94,20 @@ angular.module('nb.blog', ['hc.commonmark'])
       $scope.load_post,
       function () {
         $scope.show_error('Error loading blog post.');
+      }
+    );
+  })
+  
+  .controller('nbPageController', function ($scope, $routeParams, nbBlogDataService) {
+    $scope.load_page = function (response) {
+      $scope.page = nbBlogDataService.parse_post(response.data);
+      $scope.set_title($scope.page.metadata.title);
+    };
+    
+    nbBlogDataService.get_page($routeParams.slug).then(
+      $scope.load_page,
+      function () {
+        $scope.show_error('Error loading page.');
       }
     );
   });
