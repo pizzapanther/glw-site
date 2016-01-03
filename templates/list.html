@@ -1,8 +1,8 @@
 <div class="blog-entry" ng-repeat="post in posts">
   <div class="meta">
-    <time class="blog-postdate" datetime="2015-12-03 05:02:00 UTC" pubdate="" data-updated="true">
-      {{ post[1].published | amDateFormat:'MM/DD/YYYY HH:mm A' }}
-    </time> | Posted by PizzaPanther
+    <time class="blog-postdate" datetime="{{ post[1].published | amDateFormat:'YYYY-MM-DD HH:mm CST' }}" pubdate="{{ post[1].published | amDateFormat:'YYYY-MM-DD' }}" data-updated="true">
+      {{ post[1].published | amDateFormat:'MMMM Do YYYY' }}
+    </time> | Posted by {{ post[1].authors[0].name }}
   </div>
   <h2 class="entry-title">
     <a href="/blog/post/{{ post[0] }}">
@@ -10,41 +10,21 @@
     </a>
   </h2>
   <div class="post-content">
+    <img ng-if="post[1].image" class="thumb" ng-src="{{ post[1].image }}" alt="">
     {{ post[1].summary }}
   </div>
+  <div style="clear: both;"></div>
 </div>
-<md-card class="post" ng-repeat="post in posts">
-  <md-card-title>
-    <md-card-title-text>
-      <h2 class="md-headline">
-        <a href="/blog/post/{{ post[0] }}">{{ post[1].title }}</a>
-      </h2>
-      <span class="md-subhead">
-        {{ post[1].published | amDateFormat:'MM/DD/YYYY HH:mm A' }}
-      </span>
-    </md-card-title-text>
-    <md-card-title-media ng-if="post[1].image">
-      <div class="md-media-md card-media">
-        <img ng-src="{{ post[1].image }}" alt="">
-      </div>
-    </md-card-title-media>
-  </md-card-title>
-  <md-card-content layout="row" layout-align="space-between">
-    {{ post[1].summary }}
-  </md-card-content>
-</md-card>
-<div class="pages" layout="row">
-  <div flex>
-    <md-button href='?page={{ page_prev }}' ng-if="page_prev">
-      &laquo; Newer Posts
-    </md-button>
-  </div>
-  <div flex class="page_num">
-    Page {{ page }}
-  </div>
-  <div flex>
-    <md-button href='?page={{ page_next }}' ng-if="page_next">
-      Older Posts &raquo;
-    </md-button>
-  </div>
+<div class="pagination wrapper">
+  <ul>
+    <li class="nav prev previous_page" ng-if="page_prev">
+      <a href='?page={{ page_prev }}'>&laquo; Newer Posts</a>
+    </li>
+    <li>
+      Page {{ page }}
+    </li>
+    <li class="nav next next_page" ng-if="page_next">
+      <a href="?page={{ page_next }}">Older Posts &raquo;</a>
+    </li>
+  </ul>
 </div>

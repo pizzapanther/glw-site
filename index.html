@@ -1,86 +1,53 @@
 <!DOCTYPE html>
-<head ng-app="GlwApp" ng-controller="GlobalController">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title ng-bind="title">
-    God So Loved The World Ministries, Inc
-  </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/favicon.png">
-  <link href="//fonts.googleapis.com/css?family=Playfair+Display%7CSource+Code+Pro%7CRoboto:400,400italic" rel="stylesheet" type="text/css">
-  <link href="/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <!--<link href="/posts.rss" rel="alternate" title="God So Loved The World Ministries, Inc" type="application/rss+xml">
-  <link href="/posts.atom" rel="alternate" title="God So Loved The World Ministries, Inc" type="application/atom+xml">-->
-  <base href="/">
-</head>
-<body>
-  <header class="page-header"><div class="wrapper">
-    <img src="/img/earthheart-sm.png" alt="" style="width: 64px; float: left; margin-top: 45px; margin-right: 20px;"><h1 class="blog-headline"><a href="http://godlovedtheworld.logdown.com">God So Loved The World Ministries, Inc</a></h1>
-    <h2 class="blog-tagline">Haiti Missions &amp; Orphanage</h2>
-      <nav><ul class="main-navigation">
-<li><a href="/">Home</a></li>
-          <li><a href="/pages/donate">Donate</a></li>
-          <li><a href="/pages/about">About Us</a></li>
-          <li><a href="/pages/newsletter">Newsletter</a></li>
-          <!--<li><a href="http://godlovedtheworld.logdown.com/posts.atom">Feed</a></li>-->
-        </ul></nav>
-</div>
-  </header><div class="blog-about">
-    <div class="wrapper">
-      <h2 class="title">About</h2>
-      <div class="holder"></div>
-    </div>
+<html ng-app="GlwApp" ng-controller="GlobalController">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title ng-bind="title">
+      God So Loved The World Ministries, Inc
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display%7CSource+Code+Pro%7CRoboto:400,400italic" rel="stylesheet" type="text/css">
+    <link href="/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--<link href="/posts.rss" rel="alternate" title="God So Loved The World Ministries, Inc" type="application/rss+xml">
+    <link href="/posts.atom" rel="alternate" title="God So Loved The World Ministries, Inc" type="application/atom+xml">-->
+    <base href="/">
+  </head>
+  <body>
+    <header class="page-header"><div class="wrapper">
+      <img src="/img/earthheart-sm.png" alt="" style="width: 64px; float: left; margin-top: 45px; margin-right: 20px;"><h1 class="blog-headline"><a href="http://godlovedtheworld.logdown.com">God So Loved The World Ministries, Inc</a></h1>
+      <h2 class="blog-tagline">Haiti Missions &amp; Orphanage</h2>
+        <nav><ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+            <li><a href="/pages/donate">Donate</a></li>
+            <li><a href="/pages/about">About Us</a></li>
+            <li><a href="/pages/newsletter">Newsletter</a></li>
+            <!--<li><a href="http://godlovedtheworld.logdown.com/posts.atom">Feed</a></li>-->
+          </ul></nav>
   </div>
-  <div class="wrapper" ng-view></div>
-  <div class="pagination wrapper">
-    <ul>
-<li class="active">
-          <a href="#">1</a>
-        </li>
-        
-
-        
-
-        
-      
-        
-
-        
-
-        
-        <li>
-          <a href="?page=2">2</a>
-        </li>
-        
-      
-
-      
-      <li class="nav next next_page ">
-        <a href="?page=2">Next</a>
-      </li>
-      
-    </ul>
-</div>
-  <!-- pagination_module_end -->
-  <footer class="page-footer"><div class="wrapper">
-      Copyright &copy; Paul Bailey<br>
-      Theme Breeze by <a href="http://www.pixeldoeverything.com" target="_blank">Pixel do Everything</a>
+    </header><div class="blog-about">
+      <div class="wrapper">
+        <h2 class="title">About</h2>
+        <div class="holder"></div>
+      </div>
     </div>
-  </footer><div id="search-field">
-    <form action="/posts/search" method="get">
-        <input class="search" type="text" name="q" results="0" placeholder="Search" x-webkit-speech>
-</form>
-  </div>
-  <script src="/bower_components/angular/angular.min.js"></script>
-  <script src="/bower_components/angular-route/angular-route.min.js"></script>
-  
-  <script src="/bower_components/moment/min/moment.min.js"></script>
-  <script src="/bower_components/angular-moment/angular-moment.min.js"></script>
-  
-  <script src="/bower_components/commonmark/dist/commonmark.js"></script>
-  <script src="/bower_components/angular-commonmark/angular-commonmark.min.js"></script>
-  
-  <script src="/bower_components/nb-blog/blog.js"></script>
-  
-  <script type="text/javascript" src="js/app.js"></script>
-</body>
+    <div class="wrapper" ng-view></div>
+    <footer class="page-footer"><div class="wrapper">
+        Copyright &copy; Paul Bailey<br>
+        Theme Breeze by <a href="http://www.pixeldoeverything.com" target="_blank">Pixel do Everything</a>
+      </div>
+    </footer>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+    
+    <script src="/bower_components/moment/min/moment.min.js"></script>
+    <script src="/bower_components/angular-moment/angular-moment.min.js"></script>
+    
+    <script src="/bower_components/commonmark/dist/commonmark.js"></script>
+    <script src="/bower_components/angular-commonmark/angular-commonmark.min.js"></script>
+    
+    <script src="/bower_components/nb-blog/blog.js"></script>
+    
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
 </html>

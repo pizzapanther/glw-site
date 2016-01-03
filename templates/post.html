@@ -1,16 +1,14 @@
-<md-card class="post">
-  <md-card-title>
-    <md-card-title-text>
-      <h1 class="md-headline">{{ post.metadata.title }}</h1>
-      <span class="md-subhead">
-        {{ post.metadata.published | amDateFormat:'MM/DD/YYYY HH:mm A' }}
-      </span>
-    </md-card-title-text>
-  </md-card-title>
-  <md-card-content>
-    <div class="main">
-      <img ng-src="{{ post.metadata.image }}" alt="" ng-if="post.metadata.image">
-    </div>
+<div class="blog-entry">
+  <div class="meta">
+    <time class="blog-postdate" datetime="{{ post.metadata.published | amDateFormat:'YYYY-MM-DD HH:mm CST' }}" pubdate="{{ post.metadata.published | amDateFormat:'YYYY-MM-DD' }}" data-updated="true">
+      {{ post.metadata.published | amDateFormat:'MMMM Do YYYY' }}
+    </time> | Posted by {{ post.metadata.authors[0].name }}
+  </div>
+  <h1 class="entry-title">
+    {{ post.metadata.title }}
+  </h1>
+  <div class="post-content">
+    <img ng-if="post.metadata.image" class="fullsize" ng-src="{{ post.metadata.image }}" alt="">
     <div common-mark="post.content"></div>
-  </md-card-content>
-</md-card>
+  </div>
+</div>

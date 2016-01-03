@@ -3,7 +3,7 @@
   "published": "2014-12-27 15:53",
   "categories": ["Update"],
   "authors": ["Arlene Bailey"],
-  "image": ["/img/posts/2014-12-kids.jpg"]
+  "image": "/img/posts/2014-12-kids.jpg"
 }
 
 Dear Friends, Family, and Fellow Believers,
