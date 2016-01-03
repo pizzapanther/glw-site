@@ -1,0 +1,22 @@
+{
+  "name": "nb-blog",
+  "homepage": "https://github.com/pizzapanther/nb-blog",
+  "authors": [
+    "Paul Bailey <paul.m.bailey@gmail.com>"
+  ],
+  "description": "Neutron Builder client side code to handle blog app output",
+  "main": "blog.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.4.x",
+    "angular-commonmark": "Hypercubed/angular-commonmark#~0.0.8"
+  }
+}

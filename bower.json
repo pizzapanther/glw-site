@@ -1,0 +1,24 @@
+{
+  "name": "glw-site",
+  "homepage": "https://github.com/pizzapanther/glw-site",
+  "authors": [
+    "Paul Bailey <paul.m.bailey@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "CC0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nb-blog": "~1.0.1",
+    "angular-route": "~1.4.8",
+    "angular-moment": "~0.10.3"
+  }
+}
