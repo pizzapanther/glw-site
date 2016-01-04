@@ -1,10 +1,8 @@
 {
-  "total_pages": 2,
   "posts": [
     [
       "2015/2015-12-02-december-2015-update",
       {
-        "published": "2015-12-02 23:02:00 -00:00",
         "categories": [
           {
             "name": "Update",
@@ -13,19 +11,19 @@
         ],
         "image": "/img/posts/class.jpg",
         "title": "December 2015 Update",
+        "summary": "\n\nGreetings in the name of our Lord Jesus Christ. On my recent trip to Haiti in October, we found all the children well and happy. We told you in the last newsletter, we were starting a school. When I arrived in Haiti, 3 classrooms were all ready for t...",
         "authors": [
           {
             "name": "Arlene Bailey",
             "slug": "arlene-bailey"
           }
         ],
-        "summary": "\n\nGreetings in the name of our Lord Jesus Christ. On my recent trip to Haiti in October, we found all the children well and happy. We told you in the last newsletter, we were starting a school. When I arrived in Haiti, 3 classrooms were all ready for t..."
+        "published": "2015-12-02 23:02:00 -00:00"
       }
     ],
     [
       "2015/2015-07-28-july-2015-update",
       {
-        "published": "2015-07-28 14:53:00 -00:00",
         "categories": [
           {
             "name": "Update",
@@ -34,19 +32,19 @@
         ],
         "image": "/img/posts/11008564_884689474910850_9071935392535153747_n.jpg",
         "title": "July 2015 Update",
+        "summary": "\n\nGreetings in the name of the our Lord Jesus Christ. I haven't written a newsletter lately; time seems to just fly by. The children are well and happy. They have finished another school year this June and it was a miracle all the children were able to...",
         "authors": [
           {
             "name": "Arlene Bailey",
             "slug": "arlene-bailey"
           }
         ],
-        "summary": "\n\nGreetings in the name of the our Lord Jesus Christ. I haven't written a newsletter lately; time seems to just fly by. The children are well and happy. They have finished another school year this June and it was a miracle all the children were able to..."
+        "published": "2015-07-28 14:53:00 -00:00"
       }
     ],
     [
       "2014/2014-12-27-2014-december-update",
       {
-        "published": "2014-12-27 15:53:00 -00:00",
         "categories": [
           {
             "name": "Update",
@@ -55,154 +53,156 @@
         ],
         "image": "/img/posts/2014-12-kids.jpg",
         "title": "December 2014 Update",
+        "summary": "\n\nDear Friends, Family, and Fellow Believers,\n\nWe are coming to the end of another year, and we are praising God for what he has done and what he is going to do. Even though we have been through many difficulties this year, God has brought us through i...",
         "authors": [
           {
             "name": "Arlene Bailey",
             "slug": "arlene-bailey"
           }
         ],
-        "summary": "\n\nDear Friends, Family, and Fellow Believers,\n\nWe are coming to the end of another year, and we are praising God for what he has done and what he is going to do. Even though we have been through many difficulties this year, God has brought us through i..."
+        "published": "2014-12-27 15:53:00 -00:00"
       }
     ],
     [
       "2014/2014-08-27-august-2014-update",
       {
-        "published": "2014-08-27 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tDear Friends, Family, and Fellow Believers,\n\n\tWe would like to give you an update of everything that has been happening in Haiti for the past few months. We have been through many trials and tribulations and are almost at the brink of giving up. Bu...",
+        "published": "2014-08-27 00:00:00 -00:00",
         "title": "August 2014 Update",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tDear Friends, Family, and Fellow Believers,\n\n\tWe would like to give you an update of everything that has been happening in Haiti for the past few months. We have been through many trials and tribulations and are almost at the brink of giving up. Bu..."
       }
     ],
     [
       "2014/2014-04-07-april-2014-update",
       {
-        "published": "2014-04-07 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tDear Friends, family, and fellow believers,\n\n\tGreetings in the name of the our Lord Jesus Christ. &nbsp;I can&rsquo;t believe another year has gone by. We are in operation and moving ahead by the grace of God. It&rsquo;s been a real trying year, bu...",
+        "published": "2014-04-07 00:00:00 -00:00",
         "title": "April 2014 Update",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tDear Friends, family, and fellow believers,\n\n\tGreetings in the name of the our Lord Jesus Christ. &nbsp;I can&rsquo;t believe another year has gone by. We are in operation and moving ahead by the grace of God. It&rsquo;s been a real trying year, bu..."
       }
     ],
     [
       "2013/2013-04-30-april-update",
       {
-        "published": "2013-04-30 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tDear friends, family and fellow believers,\n\n\tJust a little update on what is happening in Haiti.&nbsp; On my recent trip to Haiti in March, we found everyone doing well considering the condition of the country.&nbsp; The children were off from scho...",
+        "published": "2013-04-30 00:00:00 -00:00",
         "title": "April Update",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tDear friends, family and fellow believers,\n\n\tJust a little update on what is happening in Haiti.&nbsp; On my recent trip to Haiti in March, we found everyone doing well considering the condition of the country.&nbsp; The children were off from scho..."
       }
     ],
     [
       "2013/2013-02-05-february-2013-update",
       {
-        "published": "2013-02-05 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tGreetings in the name of our Lord Jesus Christ.&nbsp; Well, we made it through another year by the grace of God.&nbsp; We have had our share of problems, but God brought us through each one.\n\n\tWe want to give you an update on what is happening in H...",
+        "published": "2013-02-05 00:00:00 -00:00",
         "title": "February 2013 Update",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tGreetings in the name of our Lord Jesus Christ.&nbsp; Well, we made it through another year by the grace of God.&nbsp; We have had our share of problems, but God brought us through each one.\n\n\tWe want to give you an update on what is happening in H..."
       }
     ],
     [
       "2012/2012-08-28-online-donations-and-new-photos",
       {
-        "published": "2012-08-28 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tWe just launched online donations. &nbsp;You can now make one time and automatic donations online at anytime. &nbsp;We can always use your support, but specifically right now we are looking to send the kids to school at a cost of $25/month for each...",
+        "published": "2012-08-28 00:00:00 -00:00",
         "title": "Online Donations and New Photos",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tWe just launched online donations. &nbsp;You can now make one time and automatic donations online at anytime. &nbsp;We can always use your support, but specifically right now we are looking to send the kids to school at a cost of $25/month for each..."
       }
     ],
     [
       "2012/2012-06-11-june-2012-update",
       {
-        "published": "2012-06-11 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tGreetings in the name of our Lord Jesus Christ.&nbsp; I wanted to give you an update on my recent trip to Haiti.&nbsp; I returned to Haiti on May 2nd, 2012 for three weeks.&nbsp; When I last left Haiti we only had 2 children, but we were expecting ...",
+        "published": "2012-06-11 00:00:00 -00:00",
         "title": "June 2012 Update",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tGreetings in the name of our Lord Jesus Christ.&nbsp; I wanted to give you an update on my recent trip to Haiti.&nbsp; I returned to Haiti on May 2nd, 2012 for three weeks.&nbsp; When I last left Haiti we only had 2 children, but we were expecting ..."
       }
     ],
     [
       "2012/2012-03-27-march-2012-update",
       {
-        "published": "2012-03-27 00:00:00 -00:00",
+        "authors": [
+          {
+            "name": "Arlene Bailey",
+            "slug": "arlene-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Update",
             "slug": "update"
           }
         ],
-        "summary": "\n\n\n\tDear friends, family, and fellow believers,\n\n\tGreetings in the name of our Lord Jesus Christ.&nbsp; We wanted to give you an update on our last trip to Haiti.&nbsp; We were in Haiti during the month of February and March.&nbsp; My husband was with ...",
+        "published": "2012-03-27 00:00:00 -00:00",
         "title": "March 2012 Update",
-        "authors": [
-          {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
-          }
-        ]
+        "summary": "\n\n\n\tDear friends, family, and fellow believers,\n\n\tGreetings in the name of our Lord Jesus Christ.&nbsp; We wanted to give you an update on our last trip to Haiti.&nbsp; We were in Haiti during the month of February and March.&nbsp; My husband was with ..."
       }
     ]
-  ]
+  ],
+  "total_pages": 2
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+  <title>{{ title }}</title>
+  <link href="{{ url }}" rel="alternate"></link>
+  <link href="{{ url }}data/rss.xml" rel="self"></link>
+  <id>{{ url }}</id>
+  <updated>{% now "c" %}</updated>
+  {% for post in posts %}
+  <entry>
+    <title>{{ post.1.title|striptags }}</title>
+    <link href="{{ url }}post/{{ post.0 }}" rel="alternate"></link>
+    <updated>{{ post.1.published|date:"c" }}</updated>
+    {% for author in post.1.authors %}
+    <author>
+      <name>{{ author }}</name>
+    </author>
+    {% endfor %}
+    <id>{{ url }}post/{{ post.0 }}</id>
+    <summary type="html">
+      {% if post.1.image %}
+      &lt;img src="http://www.godlovedtheworld.com{{ post.1.image }}" alt="" style="max-width: 300px; display: block; margin: 0 auto 15px auto;"&gt;
+      {% endif %}
+      &lt;p&gt;
+        {{ post.1.summary }}
+      &lt;/p&gt;
+    </summary>
+  </entry>
+  {% endfor %}
+</feed>
