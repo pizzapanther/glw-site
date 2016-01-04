@@ -14,6 +14,7 @@ glwapp.config(function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/',
       {controller:'nbBlogListController', templateUrl: tpl('list.html')})
+    .when('/blog/', {redirectTo: '/'})
     .when('/blog/post/:year/:slug',
       {controller:'nbBlogPostController', templateUrl: tpl('post.html')})
     .when('/pages/:slug',

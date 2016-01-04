@@ -1,4 +1,7 @@
 {
   "app": "nbBlog",
-  "version": "1"
+  "version": "1",
+  
+  "title": "God So Loved The World Ministries",
+  "url": "http://www.godlovedtheworld.com/blog/"
 }
