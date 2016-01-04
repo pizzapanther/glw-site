@@ -18,7 +18,7 @@
     <id>{{ url }}post/{{ post.0 }}</id>
     <summary type="html">
       {% if post.1.image %}
-      &lt;img src="http://www.godlovedtheworld.com{{ post.1.image }}" alt="" style="max-width: 300px; display: block; margin: 0 auto 15px auto;"&gt;
+      &lt;img src="https://glw.imgix.net{{ post.1.image }}?w=300&amp;fit=max" alt="" style="display: block; margin: 0 auto 15px auto;"&gt;
       {% endif %}
       &lt;p&gt;
         {{ post.1.summary }}

@@ -1,45 +1,45 @@
 {
+  "total_pages": 2,
   "posts": [
     [
       "2011/2011-10-12-september-2011-trip-update",
       {
+        "title": "September 2011 Trip Update",
+        "summary": "\n\n\n\tOn September 7th I traveled to Haiti with the expectation that our rented house would be ready, and that we would be able to take in children. &nbsp;We have several children who are currently living in the mountains that are potential candidates fo...",
         "authors": [
           {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
+            "slug": "arlene-bailey",
+            "name": "Arlene Bailey"
           }
         ],
         "categories": [
           {
-            "name": "Update",
-            "slug": "update"
+            "slug": "update",
+            "name": "Update"
           }
         ],
-        "published": "2011-10-12 00:00:00 -00:00",
-        "title": "September 2011 Trip Update",
-        "summary": "\n\n\n\tOn September 7th I traveled to Haiti with the expectation that our rented house would be ready, and that we would be able to take in children. &nbsp;We have several children who are currently living in the mountains that are potential candidates fo..."
+        "published": "2011-10-12 00:00:00 -00:00"
       }
     ],
     [
       "2011/2011-07-20-introduction-to-god-so-loved-the-world-ministries",
       {
+        "title": "Introduction to God So Loved The World Ministries",
+        "summary": "\n\n\n\tMy name is Evangelist Arlene Bailey; I am writing this to share the vision God has placed on my heart.&nbsp; We are believing God to start an orphanage in Haiti.&nbsp; The name we have chosen for the ministry is God So Loved The World Ministries (J...",
         "authors": [
           {
-            "name": "Arlene Bailey",
-            "slug": "arlene-bailey"
+            "slug": "arlene-bailey",
+            "name": "Arlene Bailey"
           }
         ],
         "categories": [
           {
-            "name": "Update",
-            "slug": "update"
+            "slug": "update",
+            "name": "Update"
           }
         ],
-        "published": "2011-07-20 00:00:00 -00:00",
-        "title": "Introduction to God So Loved The World Ministries",
-        "summary": "\n\n\n\tMy name is Evangelist Arlene Bailey; I am writing this to share the vision God has placed on my heart.&nbsp; We are believing God to start an orphanage in Haiti.&nbsp; The name we have chosen for the ministry is God So Loved The World Ministries (J..."
+        "published": "2011-07-20 00:00:00 -00:00"
       }
     ]
-  ],
-  "total_pages": 2
+  ]
 }
