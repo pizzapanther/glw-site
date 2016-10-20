@@ -1,69 +1,74 @@
 {
   "posts": [
     {
-      "title": "July 2016 Update",
+      "url": "2016/2016-10-19-oct-update",
+      "published": "2016-10-19 23:02:00 -00:00",
+      "title": "October 2016 Update"
+    },
+    {
       "url": "2016/2016-07-02-july-2016-update",
-      "published": "2016-07-01 23:02:00 -00:00"
+      "published": "2016-07-01 23:02:00 -00:00",
+      "title": "July 2016 Update"
     },
     {
-      "title": "December 2015 Update",
       "url": "2015/2015-12-02-december-2015-update",
-      "published": "2015-12-02 23:02:00 -00:00"
+      "published": "2015-12-02 23:02:00 -00:00",
+      "title": "December 2015 Update"
     },
     {
-      "title": "July 2015 Update",
       "url": "2015/2015-07-28-july-2015-update",
-      "published": "2015-07-28 14:53:00 -00:00"
+      "published": "2015-07-28 14:53:00 -00:00",
+      "title": "July 2015 Update"
     },
     {
-      "title": "December 2014 Update",
       "url": "2014/2014-12-27-2014-december-update",
-      "published": "2014-12-27 15:53:00 -00:00"
+      "published": "2014-12-27 15:53:00 -00:00",
+      "title": "December 2014 Update"
     },
     {
-      "title": "August 2014 Update",
       "url": "2014/2014-08-27-august-2014-update",
-      "published": "2014-08-27 00:00:00 -00:00"
+      "published": "2014-08-27 00:00:00 -00:00",
+      "title": "August 2014 Update"
     },
     {
-      "title": "April 2014 Update",
       "url": "2014/2014-04-07-april-2014-update",
-      "published": "2014-04-07 00:00:00 -00:00"
+      "published": "2014-04-07 00:00:00 -00:00",
+      "title": "April 2014 Update"
     },
     {
-      "title": "April Update",
       "url": "2013/2013-04-30-april-update",
-      "published": "2013-04-30 00:00:00 -00:00"
+      "published": "2013-04-30 00:00:00 -00:00",
+      "title": "April Update"
     },
     {
-      "title": "February 2013 Update",
       "url": "2013/2013-02-05-february-2013-update",
-      "published": "2013-02-05 00:00:00 -00:00"
+      "published": "2013-02-05 00:00:00 -00:00",
+      "title": "February 2013 Update"
     },
     {
-      "title": "Online Donations and New Photos",
       "url": "2012/2012-08-28-online-donations-and-new-photos",
-      "published": "2012-08-28 00:00:00 -00:00"
+      "published": "2012-08-28 00:00:00 -00:00",
+      "title": "Online Donations and New Photos"
     },
     {
-      "title": "June 2012 Update",
       "url": "2012/2012-06-11-june-2012-update",
-      "published": "2012-06-11 00:00:00 -00:00"
+      "published": "2012-06-11 00:00:00 -00:00",
+      "title": "June 2012 Update"
     },
     {
-      "title": "March 2012 Update",
       "url": "2012/2012-03-27-march-2012-update",
-      "published": "2012-03-27 00:00:00 -00:00"
+      "published": "2012-03-27 00:00:00 -00:00",
+      "title": "March 2012 Update"
     },
     {
-      "title": "September 2011 Trip Update",
       "url": "2011/2011-10-12-september-2011-trip-update",
-      "published": "2011-10-12 00:00:00 -00:00"
+      "published": "2011-10-12 00:00:00 -00:00",
+      "title": "September 2011 Trip Update"
     },
     {
-      "title": "Introduction to God So Loved The World Ministries",
       "url": "2011/2011-07-20-introduction-to-god-so-loved-the-world-ministries",
-      "published": "2011-07-20 00:00:00 -00:00"
+      "published": "2011-07-20 00:00:00 -00:00",
+      "title": "Introduction to God So Loved The World Ministries"
     }
   ]
 }
